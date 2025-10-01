@@ -1,0 +1,4 @@
+format: isaac_grasp
+format_version: 1.0
+grasps: {}
+ranking: []

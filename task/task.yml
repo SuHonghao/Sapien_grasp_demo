@@ -1,341 +1,341 @@
 tasks:
   bag:
     '001':
-      config: grasp/task/bag/001/bag.yml
-      model: grasp/task/bag/001/bag.glb
+      config: grasp/task/bag/001/graspgen_proposals_topk.yml
+      model: grasp/task/bag/001/bag_scaled.glb
     '002':
-      config: grasp/task/bag/002/bag.yml
-      model: grasp/task/bag/002/bag.glb
+      config: grasp/task/bag/002/graspgen_proposals_topk.yml
+      model: grasp/task/bag/002/bag_scaled.glb
     '003':
-      config: grasp/task/bag/003/bag.yml
-      model: grasp/task/bag/003/bag.glb
+      config: grasp/task/bag/003/graspgen_proposals_topk.yml
+      model: grasp/task/bag/003/bag_scaled.glb
 
   ball:
     '001':
-      config: grasp/task/ball/001/ball.yml
-      model: grasp/task/ball/001/ball.glb
+      config: grasp/task/ball/001/graspgen_proposals_topk.yml
+      model: grasp/task/ball/001/ball_scaled.glb
     '002':
-      config: grasp/task/ball/002/ball.yml
-      model: grasp/task/ball/002/ball.glb
+      config: grasp/task/ball/002/graspgen_proposals_topk.yml
+      model: grasp/task/ball/002/ball_scaled.glb
     '003':
-      config: grasp/task/ball/003/ball.yml
-      model: grasp/task/ball/003/ball.glb
+      config: grasp/task/ball/003/graspgen_proposals_topk.yml
+      model: grasp/task/ball/003/ball_scaled.glb
 
   book:
     '001':
-      config: grasp/task/book/001/book.yml
-      model: grasp/task/book/001/book.glb
+      config: grasp/task/book/001/graspgen_proposals_topk.yml
+      model: grasp/task/book/001/book_scaled.glb
     '002':
-      config: grasp/task/book/002/book.yml
-      model: grasp/task/book/002/book.glb
+      config: grasp/task/book/002/graspgen_proposals_topk.yml
+      model: grasp/task/book/002/book_scaled.glb
     '003':
-      config: grasp/task/book/003/book.yml
-      model: grasp/task/book/003/book.glb
+      config: grasp/task/book/003/graspgen_proposals_topk.yml
+      model: grasp/task/book/003/book_scaled.glb
 
   bottle:
     '001':
-      config: grasp/task/bottle/001/bottle.yml
-      model: grasp/task/bottle/001/bottle.glb
+      config: grasp/task/bottle/001/graspgen_proposals_topk.yml
+      model: grasp/task/bottle/001/bottle_scaled.glb
     '002':
-      config: grasp/task/bottle/002/bottle.yml
-      model: grasp/task/bottle/002/bottle.glb
+      config: grasp/task/bottle/002/graspgen_proposals_topk.yml
+      model: grasp/task/bottle/002/bottle_scaled.glb
     '003':
-      config: grasp/task/bottle/003/bottle.yml
-      model: grasp/task/bottle/003/bottle.glb
+      config: grasp/task/bottle/003/graspgen_proposals_topk.yml
+      model: grasp/task/bottle/003/bottle_scaled.glb
 
   bowl:
     '001':
-      config: grasp/task/bowl/001/bowl.yml
-      model: grasp/task/bowl/001/bowl.glb
+      config: grasp/task/bowl/001/graspgen_proposals_topk.yml
+      model: grasp/task/bowl/001/bowl_scaled.glb
     '002':
-      config: grasp/task/bowl/002/bowl.yml
-      model: grasp/task/bowl/002/bowl.glb
+      config: grasp/task/bowl/002/graspgen_proposals_topk.yml
+      model: grasp/task/bowl/002/bowl_scaled.glb
     '003':
-      config: grasp/task/bowl/003/bowl.yml
-      model: grasp/task/bowl/003/bowl.glb
+      config: grasp/task/bowl/003/graspgen_proposals_topk.yml
+      model: grasp/task/bowl/003/bowl_scaled.glb
 
   can:
     '001':
-      config: grasp/task/can/001/can.yml
-      model: grasp/task/can/001/can.glb
+      config: grasp/task/can/001/graspgen_proposals_topk.yml
+      model: grasp/task/can/001/can_scaled.glb
     '002':
-      config: grasp/task/can/002/can.yml
-      model: grasp/task/can/002/can.glb
+      config: grasp/task/can/002/graspgen_proposals_topk.yml
+      model: grasp/task/can/002/can_scaled.glb
     '003':
-      config: grasp/task/can/003/can.yml
-      model: grasp/task/can/003/can.glb
+      config: grasp/task/can/003/graspgen_proposals_topk.yml
+      model: grasp/task/can/003/can_scaled.glb
 
   clothe:
     '001':
-      config: grasp/task/clothe/001/clothe.yml
-      model: grasp/task/clothe/001/clothe.glb
+      config: grasp/task/clothe/001/graspgen_proposals_topk.yml
+      model: grasp/task/clothe/001/clothe_scaled.glb
     '002':
-      config: grasp/task/clothe/002/clothe.yml
-      model: grasp/task/clothe/002/clothe.glb
+      config: grasp/task/clothe/002/graspgen_proposals_topk.yml
+      model: grasp/task/clothe/002/clothe_scaled.glb
     '003':
-      config: grasp/task/clothe/003/clothe.yml
-      model: grasp/task/clothe/003/clothe.glb
+      config: grasp/task/clothe/003/graspgen_proposals_topk.yml
+      model: grasp/task/clothe/003/clothe_scaled.glb
 
   cup:
     '001':
-      config: grasp/task/cup/001/cup.yml
-      model: grasp/task/cup/001/cup.glb
+      config: grasp/task/cup/001/graspgen_proposals_topk.yml
+      model: grasp/task/cup/001/cup_scaled.glb
     '002':
-      config: grasp/task/cup/002/cup.yml
-      model: grasp/task/cup/002/cup.glb
+      config: grasp/task/cup/002/graspgen_proposals_topk.yml
+      model: grasp/task/cup/002/cup_scaled.glb
     '003':
-      config: grasp/task/cup/003/cup.yml
-      model: grasp/task/cup/003/cup.glb
+      config: grasp/task/cup/003/graspgen_proposals_topk.yml
+      model: grasp/task/cup/003/cup_scaled.glb
 
   doll:
     '001':
-      config: grasp/task/doll/001/doll.yml
-      model: grasp/task/doll/001/doll.glb
+      config: grasp/task/doll/001/graspgen_proposals_topk.yml
+      model: grasp/task/doll/001/doll_scaled.glb
     '002':
-      config: grasp/task/doll/002/doll.yml
-      model: grasp/task/doll/002/doll.glb
+      config: grasp/task/doll/002/graspgen_proposals_topk.yml
+      model: grasp/task/doll/002/doll_scaled.glb
     '003':
-      config: grasp/task/doll/003/doll.yml
-      model: grasp/task/doll/003/doll.glb
+      config: grasp/task/doll/003/graspgen_proposals_topk.yml
+      model: grasp/task/doll/003/doll_scaled.glb
 
   flat_bladed_tool:
     '001':
-      config: grasp/task/flat_bladed_tool/001/flat_bladed_tool.yml
-      model: grasp/task/flat_bladed_tool/001/flat_bladed_tool.glb
+      config: grasp/task/flat_bladed_tool/001/graspgen_proposals_topk.yml
+      model: grasp/task/flat_bladed_tool/001/flat_bladed_tool_scaled.glb
     '002':
-      config: grasp/task/flat_bladed_tool/002/flat_bladed_tool.yml
-      model: grasp/task/flat_bladed_tool/002/flat_bladed_tool.glb
+      config: grasp/task/flat_bladed_tool/002/graspgen_proposals_topk.yml
+      model: grasp/task/flat_bladed_tool/002/flat_bladed_tool_scaled.glb
     '003':
-      config: grasp/task/flat_bladed_tool/003/flat_bladed_tool.yml
-      model: grasp/task/flat_bladed_tool/003/flat_bladed_tool.glb
+      config: grasp/task/flat_bladed_tool/003/graspgen_proposals_topk.yml
+      model: grasp/task/flat_bladed_tool/003/flat_bladed_tool_scaled.glb
 
   fruit:
     '001':
-      config: grasp/task/fruit/001/fruit.yml
-      model: grasp/task/fruit/001/fruit.glb
+      config: grasp/task/fruit/001/graspgen_proposals_topk.yml
+      model: grasp/task/fruit/001/fruit_scaled.glb
     '002':
-      config: grasp/task/fruit/002/fruit.yml
-      model: grasp/task/fruit/002/fruit.glb
+      config: grasp/task/fruit/002/graspgen_proposals_topk.yml
+      model: grasp/task/fruit/002/fruit_scaled.glb
     '003':
-      config: grasp/task/fruit/003/fruit.yml
-      model: grasp/task/fruit/003/fruit.glb
+      config: grasp/task/fruit/003/graspgen_proposals_topk.yml
+      model: grasp/task/fruit/003/fruit_scaled.glb
 
   glove:
     '001':
-      config: grasp/task/glove/001/glove.yml
-      model: grasp/task/glove/001/glove.glb
+      config: grasp/task/glove/001/graspgen_proposals_topk.yml
+      model: grasp/task/glove/001/glove_scaled.glb
     '002':
-      config: grasp/task/glove/002/glove.yml
-      model: grasp/task/glove/002/glove.glb
+      config: grasp/task/glove/002/graspgen_proposals_topk.yml
+      model: grasp/task/glove/002/glove_scaled.glb
     '003':
-      config: grasp/task/glove/003/glove.yml
-      model: grasp/task/glove/003/glove.glb
+      config: grasp/task/glove/003/graspgen_proposals_topk.yml
+      model: grasp/task/glove/003/glove_scaled.glb
 
   hammer:
     '001':
-      config: grasp/task/hammer/001/hammer.yml
-      model: grasp/task/hammer/001/hammer.glb
+      config: grasp/task/hammer/001/graspgen_proposals_topk.yml
+      model: grasp/task/hammer/001/hammer_scaled.glb
     '002':
-      config: grasp/task/hammer/002/hammer.yml
-      model: grasp/task/hammer/002/hammer.glb
+      config: grasp/task/hammer/002/graspgen_proposals_topk.yml
+      model: grasp/task/hammer/002/hammer_scaled.glb
     '003':
-      config: grasp/task/hammer/003/hammer.yml
-      model: grasp/task/hammer/003/hammer.glb
+      config: grasp/task/hammer/003/graspgen_proposals_topk.yml
+      model: grasp/task/hammer/003/hammer_scaled.glb
 
   hat:
     '001':
-      config: grasp/task/hat/001/hat.yml
-      model: grasp/task/hat/001/hat.glb
+      config: grasp/task/hat/001/graspgen_proposals_topk.yml
+      model: grasp/task/hat/001/hat_scaled.glb
     '002':
-      config: grasp/task/hat/002/hat.yml
-      model: grasp/task/hat/002/hat.glb
+      config: grasp/task/hat/002/graspgen_proposals_topk.yml
+      model: grasp/task/hat/002/hat_scaled.glb
     '003':
-      config: grasp/task/hat/003/hat.yml
-      model: grasp/task/hat/003/hat.glb
+      config: grasp/task/hat/003/graspgen_proposals_topk.yml
+      model: grasp/task/hat/003/hat_scaled.glb
 
   headphone:
     '001':
-      config: grasp/task/headphone/001/headphone.yml
-      model: grasp/task/headphone/001/headphone.glb
+      config: grasp/task/headphone/001/graspgen_proposals_topk.yml
+      model: grasp/task/headphone/001/headphone_scaled.glb
     '002':
-      config: grasp/task/headphone/002/headphone.yml
-      model: grasp/task/headphone/002/headphone.glb
+      config: grasp/task/headphone/002/graspgen_proposals_topk.yml
+      model: grasp/task/headphone/002/headphone_scaled.glb
     '003':
-      config: grasp/task/headphone/003/headphone.yml
-      model: grasp/task/headphone/003/headphone.glb
+      config: grasp/task/headphone/003/graspgen_proposals_topk.yml
+      model: grasp/task/headphone/003/headphone_scaled.glb
 
   key:
     '001':
-      config: grasp/task/key/001/key.yml
-      model: grasp/task/key/001/key.glb
+      config: grasp/task/key/001/graspgen_proposals_topk.yml
+      model: grasp/task/key/001/key_scaled.glb
     '002':
-      config: grasp/task/key/002/key.yml
-      model: grasp/task/key/002/key.glb
+      config: grasp/task/key/002/graspgen_proposals_topk.yml
+      model: grasp/task/key/002/key_scaled.glb
     '003':
-      config: grasp/task/key/003/key.yml
-      model: grasp/task/key/003/key.glb
+      config: grasp/task/key/003/graspgen_proposals_topk.yml
+      model: grasp/task/key/003/key_scaled.glb
 
   kitchen_spatula:
     '001':
-      config: grasp/task/kitchen_spatula/001/kitchen_spatula.yml
-      model: grasp/task/kitchen_spatula/001/kitchen_spatula.glb
+      config: grasp/task/kitchen_spatula/001/graspgen_proposals_topk.yml
+      model: grasp/task/kitchen_spatula/001/kitchen_spatula_scaled.glb
     '002':
-      config: grasp/task/kitchen_spatula/002/kitchen_spatula.yml
-      model: grasp/task/kitchen_spatula/002/kitchen_spatula.glb
+      config: grasp/task/kitchen_spatula/002/graspgen_proposals_topk.yml
+      model: grasp/task/kitchen_spatula/002/kitchen_spatula_scaled.glb
     '003':
-      config: grasp/task/kitchen_spatula/003/kitchen_spatula.yml
-      model: grasp/task/kitchen_spatula/003/kitchen_spatula.glb
+      config: grasp/task/kitchen_spatula/003/graspgen_proposals_topk.yml
+      model: grasp/task/kitchen_spatula/003/kitchen_spatula_scaled.glb
 
   knife:
     '001':
-      config: grasp/task/knife/001/knife.yml
-      model: grasp/task/knife/001/knife.glb
+      config: grasp/task/knife/001/graspgen_proposals_topk.yml
+      model: grasp/task/knife/001/knife_scaled.glb
     '002':
-      config: grasp/task/knife/002/knife.yml
-      model: grasp/task/knife/002/knife.glb
+      config: grasp/task/knife/002/graspgen_proposals_topk.yml
+      model: grasp/task/knife/002/knife_scaled.glb
     '003':
-      config: grasp/task/knife/003/knife.yml
-      model: grasp/task/knife/003/knife.glb
+      config: grasp/task/knife/003/graspgen_proposals_topk.yml
+      model: grasp/task/knife/003/knife_scaled.glb
 
   laptop:
     '001':
-      config: grasp/task/laptop/001/laptop.yml
-      model: grasp/task/laptop/001/laptop.glb
+      config: grasp/task/laptop/001/graspgen_proposals_topk.yml
+      model: grasp/task/laptop/001/laptop_scaled.glb
     '002':
-      config: grasp/task/laptop/002/laptop.yml
-      model: grasp/task/laptop/002/laptop.glb
+      config: grasp/task/laptop/002/graspgen_proposals_topk.yml
+      model: grasp/task/laptop/002/laptop_scaled.glb
     '003':
-      config: grasp/task/laptop/003/laptop.yml
-      model: grasp/task/laptop/003/laptop.glb
+      config: grasp/task/laptop/003/graspgen_proposals_topk.yml
+      model: grasp/task/laptop/003/laptop_scaled.glb
 
   lego_brick:
     '001':
-      config: grasp/task/lego_brick/001/lego_brick.yml
-      model: grasp/task/lego_brick/001/lego_brick.glb
+      config: grasp/task/lego_brick/001/graspgen_proposals_topk.yml
+      model: grasp/task/lego_brick/001/lego_brick_scaled.glb
     '002':
-      config: grasp/task/lego_brick/002/lego_brick.yml
-      model: grasp/task/lego_brick/002/lego_brick.glb
+      config: grasp/task/lego_brick/002/graspgen_proposals_topk.yml
+      model: grasp/task/lego_brick/002/lego_brick_scaled.glb
     '003':
-      config: grasp/task/lego_brick/003/lego_brick.yml
-      model: grasp/task/lego_brick/003/lego_brick.glb
+      config: grasp/task/lego_brick/003/graspgen_proposals_topk.yml
+      model: grasp/task/lego_brick/003/lego_brick_scaled.glb
 
   pen:
     '001':
-      config: grasp/task/pen/001/pen.yml
-      model: grasp/task/pen/001/pen.glb
+      config: grasp/task/pen/001/graspgen_proposals_topk.yml
+      model: grasp/task/pen/001/pen_scaled.glb
     '002':
-      config: grasp/task/pen/002/pen.yml
-      model: grasp/task/pen/002/pen.glb
+      config: grasp/task/pen/002/graspgen_proposals_topk.yml
+      model: grasp/task/pen/002/pen_scaled.glb
     '003':
-      config: grasp/task/pen/003/pen.yml
-      model: grasp/task/pen/003/pen.glb
+      config: grasp/task/pen/003/graspgen_proposals_topk.yml
+      model: grasp/task/pen/003/pen_scaled.glb
 
   plant:
     '001':
-      config: grasp/task/plant/001/plant.yml
-      model: grasp/task/plant/001/plant.glb
+      config: grasp/task/plant/001/graspgen_proposals_topk.yml
+      model: grasp/task/plant/001/plant_scaled.glb
     '002':
-      config: grasp/task/plant/002/plant.yml
-      model: grasp/task/plant/002/plant.glb
+      config: grasp/task/plant/002/graspgen_proposals_topk.yml
+      model: grasp/task/plant/002/plant_scaled.glb
     '003':
-      config: grasp/task/plant/003/plant.yml
-      model: grasp/task/plant/003/plant.glb
+      config: grasp/task/plant/003/graspgen_proposals_topk.yml
+      model: grasp/task/plant/003/plant_scaled.glb
 
   plate:
     '001':
-      config: grasp/task/plate/001/plate.yml
-      model: grasp/task/plate/001/plate.glb
+      config: grasp/task/plate/001/graspgen_proposals_topk.yml
+      model: grasp/task/plate/001/plate_scaled.glb
     '002':
-      config: grasp/task/plate/002/plate.yml
-      model: grasp/task/plate/002/plate.glb
+      config: grasp/task/plate/002/graspgen_proposals_topk.yml
+      model: grasp/task/plate/002/plate_scaled.glb
     '003':
-      config: grasp/task/plate/003/plate.yml
-      model: grasp/task/plate/003/plate.glb
+      config: grasp/task/plate/003/graspgen_proposals_topk.yml
+      model: grasp/task/plate/003/plate_scaled.glb
 
   pot:
     '001':
-      config: grasp/task/pot/001/pot.yml
-      model: grasp/task/pot/001/pot.glb
+      config: grasp/task/pot/001/graspgen_proposals_topk.yml
+      model: grasp/task/pot/001/pot_scaled.glb
     '002':
-      config: grasp/task/pot/002/pot.yml
-      model: grasp/task/pot/002/pot.glb
+      config: grasp/task/pot/002/graspgen_proposals_topk.yml
+      model: grasp/task/pot/002/pot_scaled.glb
     '003':
-      config: grasp/task/pot/003/pot.yml
-      model: grasp/task/pot/003/pot.glb
+      config: grasp/task/pot/003/graspgen_proposals_topk.yml
+      model: grasp/task/pot/003/pot_scaled.glb
 
   ring:
     '001':
-      config: grasp/task/ring/001/ring.yml
-      model: grasp/task/ring/001/ring.glb
+      config: grasp/task/ring/001/graspgen_proposals_topk.yml
+      model: grasp/task/ring/001/ring_scaled.glb
     '002':
-      config: grasp/task/ring/002/ring.yml
-      model: grasp/task/ring/002/ring.glb
+      config: grasp/task/ring/002/graspgen_proposals_topk.yml
+      model: grasp/task/ring/002/ring_scaled.glb
     '003':
-      config: grasp/task/ring/003/ring.yml
-      model: grasp/task/ring/003/ring.glb
+      config: grasp/task/ring/003/graspgen_proposals_topk.yml
+      model: grasp/task/ring/003/ring_scaled.glb
 
   shoe:
     '001':
-      config: grasp/task/shoe/001/shoe.yml
-      model: grasp/task/shoe/001/shoe.glb
+      config: grasp/task/shoe/001/graspgen_proposals_topk.yml
+      model: grasp/task/shoe/001/shoe_scaled.glb
     '002':
-      config: grasp/task/shoe/002/shoe.yml
-      model: grasp/task/shoe/002/shoe.glb
+      config: grasp/task/shoe/002/graspgen_proposals_topk.yml
+      model: grasp/task/shoe/002/shoe_scaled.glb
     '003':
-      config: grasp/task/shoe/003/shoe.yml
-      model: grasp/task/shoe/003/shoe.glb
+      config: grasp/task/shoe/003/graspgen_proposals_topk.yml
+      model: grasp/task/shoe/003/shoe_scaled.glb
 
   snack:
     '001':
-      config: grasp/task/snack/001/snack.yml
-      model: grasp/task/snack/001/snack.glb
+      config: grasp/task/snack/001/graspgen_proposals_topk.yml
+      model: grasp/task/snack/001/snack_scaled.glb
     '002':
-      config: grasp/task/snack/002/snack.yml
-      model: grasp/task/snack/002/snack.glb
+      config: grasp/task/snack/002/graspgen_proposals_topk.yml
+      model: grasp/task/snack/002/snack_scaled.glb
     '003':
-      config: grasp/task/snack/003/snack.yml
-      model: grasp/task/snack/003/snack.glb
+      config: grasp/task/snack/003/graspgen_proposals_topk.yml
+      model: grasp/task/snack/003/snack_scaled.glb
 
   spoon:
     '001':
-      config: grasp/task/spoon/001/spoon.yml
-      model: grasp/task/spoon/001/spoon.glb
+      config: grasp/task/spoon/001/graspgen_proposals_topk.yml
+      model: grasp/task/spoon/001/spoon_scaled.glb
     '002':
-      config: grasp/task/spoon/002/spoon.yml
-      model: grasp/task/spoon/002/spoon.glb
+      config: grasp/task/spoon/002/graspgen_proposals_topk.yml
+      model: grasp/task/spoon/002/spoon_scaled.glb
     '003':
-      config: grasp/task/spoon/003/spoon.yml
-      model: grasp/task/spoon/003/spoon.glb
+      config: grasp/task/spoon/003/graspgen_proposals_topk.yml
+      model: grasp/task/spoon/003/spoon_scaled.glb
 
   sword:
     '001':
-      config: grasp/task/sword/001/sword.yml
-      model: grasp/task/sword/001/sword.glb
+      config: grasp/task/sword/001/graspgen_proposals_topk.yml
+      model: grasp/task/sword/001/sword_scaled.glb
     '002':
-      config: grasp/task/sword/002/sword.yml
-      model: grasp/task/sword/002/sword.glb
+      config: grasp/task/sword/002/graspgen_proposals_topk.yml
+      model: grasp/task/sword/002/sword_scaled.glb
     '003':
-      config: grasp/task/sword/003/sword.yml
-      model: grasp/task/sword/003/sword.glb
+      config: grasp/task/sword/003/graspgen_proposals_topk.yml
+      model: grasp/task/sword/003/sword_scaled.glb
 
   teapot:
     '001':
-      config: grasp/task/teapot/001/teapot.yml
-      model: grasp/task/teapot/001/teapot.glb
+      config: grasp/task/teapot/001/graspgen_proposals_topk.yml
+      model: grasp/task/teapot/001/teapot_scaled.glb
     '002':
-      config: grasp/task/teapot/002/teapot.yml
-      model: grasp/task/teapot/002/teapot.glb
+      config: grasp/task/teapot/002/graspgen_proposals_topk.yml
+      model: grasp/task/teapot/002/teapot_scaled.glb
     '003':
-      config: grasp/task/teapot/003/teapot.yml
-      model: grasp/task/teapot/003/teapot.glb
+      config: grasp/task/teapot/003/graspgen_proposals_topk.yml
+      model: grasp/task/teapot/003/teapot_scaled.glb
 
   toy_car:
     '001':
-      config: grasp/task/toy_car/001/toy_car.yml
-      model: grasp/task/toy_car/001/toy_car.glb
+      config: grasp/task/toy_car/001/graspgen_proposals_topk.yml
+      model: grasp/task/toy_car/001/toy_car_scaled.glb
     '002':
-      config: grasp/task/toy_car/002/toy_car.yml
-      model: grasp/task/toy_car/002/toy_car.glb
+      config: grasp/task/toy_car/002/graspgen_proposals_topk.yml
+      model: grasp/task/toy_car/002/toy_car_scaled.glb
     '003':
-      config: grasp/task/toy_car/003/toy_car.yml
-      model: grasp/task/toy_car/003/toy_car.glb
+      config: grasp/task/toy_car/003/graspgen_proposals_topk.yml
+      model: grasp/task/toy_car/003/toy_car_scaled.glb

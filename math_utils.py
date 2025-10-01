@@ -34,10 +34,23 @@ def mat_to_pose(M: np.ndarray) -> sapien.Pose:
             w = (R[1,0]-R[0,1])/S; x = (R[0,2]+R[2,0])/S; y = (R[1,2]+R[2,1])/S; z = 0.25*S
     return sapien.Pose(p, np.array([w, x, y, z], dtype=np.float32))
 
-def world_to_object(obj_pose: sapien.Pose, point_world: np.ndarray):
-    """Convert a world-space point to object(local)-space given the object's pose."""
+def world_to_object(obj_pose: sapien.Pose, point_world: np.ndarray, align_axis=True):
+    """Convert a world-space point to object(local)-space given the object's pose.
+       如果 align_axis=True，则强制局部坐标系和世界坐标方向一致，避免符号翻转。
+    """
     # SAPIEN uses xyzw; convert to wxyz
     q_wxyz = [obj_pose.q[3], obj_pose.q[0], obj_pose.q[1], obj_pose.q[2]]
     R = tq.quat2mat(q_wxyz)
     t = obj_pose.p
+
+    if align_axis:
+        # 保证物体系的 z 轴和世界 z 同向
+        if R[2, 2] < 0:
+            R[:, 2] *= -1
+            R[:, 0] *= -1  # 保持右手系
+        # 保证物体系的 x 轴和世界 x 同向
+        if R[0, 0] < 0:
+            R[:, 0] *= -1
+            R[:, 1] *= -1  # 保持右手系
+
     return R.T @ (point_world - t)

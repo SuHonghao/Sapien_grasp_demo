@@ -17,7 +17,6 @@ def setup_physx_defaults(gravity_z: float = -9.8,
         _sapien.physx.set_default_material(static_friction=static_mu,
                                            dynamic_friction=dynamic_mu,
                                            restitution=restitution)
-        print(f"[INFO] PhysX defaults set: g=({gravity_z}), mu_s={static_mu}, mu_d={dynamic_mu}, e={restitution}")
     except Exception as e:
         print("[WARN] setup_physx_defaults failed:", e)
 

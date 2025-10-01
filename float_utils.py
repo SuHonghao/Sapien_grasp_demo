@@ -29,8 +29,6 @@ def make_float(entity, height: float = None):
             pos[2] = height
             entity.set_pose(sapien.Pose(pos, quat))
 
-        print(f"[INFO] Actor {entity.get_name()} 已设置为悬浮，"
-              f"{'高度 = ' + str(height) if height is not None else '保持原高度'}")
 
     # --- 情况 2: Articulation ---
     elif hasattr(entity, "get_links"):
@@ -43,9 +41,6 @@ def make_float(entity, height: float = None):
         if height is not None:
             pos[2] = height
             entity.set_root_pose(sapien.Pose(pos, quat))
-
-        print(f"[INFO] Articulation {entity.get_name()} 已设置为悬浮，"
-              f"{'高度 = ' + str(height) if height is not None else '保持原高度'}")
 
     else:
         print(f"[ERROR] 不支持的类型: {type(entity)}")

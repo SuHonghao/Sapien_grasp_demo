@@ -73,17 +73,14 @@ def load_my_object(
                 builder.add_convex_collision_from_file(
                     model_path, scale=scale_np, density=density, material=phys_mat
                 )
-                print(f"[INFO] 动态刚体：使用 CONVEX 碰撞体，摩擦={mu}, 弹性={restitution}")
             else:
                 builder.add_nonconvex_collision_from_file(
                     model_path, scale=scale_np, density=density, material=phys_mat
                 )
-                print(f"[WARN] 动态刚体：使用 NONCONVEX 碰撞体，摩擦={mu}, 弹性={restitution}")
         else:
             builder.add_nonconvex_collision_from_file(
                 model_path, scale=scale_np, density=density, material=phys_mat
             )
-            print(f"[INFO] 静态刚体：使用 NONCONVEX 碰撞体，摩擦={mu}, 弹性={restitution}")
 
     # ===== 构建 Actor =====
     actor = builder.build(name=name) if build_dynamic else builder.build_static(name=name)
