@@ -1,0 +1,341 @@
+tasks:
+  bag:
+    '001':
+      config: grasp/task/bag/001/bag.yml
+      model: grasp/task/bag/001/bag.glb
+    '002':
+      config: grasp/task/bag/002/bag.yml
+      model: grasp/task/bag/002/bag.glb
+    '003':
+      config: grasp/task/bag/003/bag.yml
+      model: grasp/task/bag/003/bag.glb
+
+  ball:
+    '001':
+      config: grasp/task/ball/001/ball.yml
+      model: grasp/task/ball/001/ball.glb
+    '002':
+      config: grasp/task/ball/002/ball.yml
+      model: grasp/task/ball/002/ball.glb
+    '003':
+      config: grasp/task/ball/003/ball.yml
+      model: grasp/task/ball/003/ball.glb
+
+  book:
+    '001':
+      config: grasp/task/book/001/book.yml
+      model: grasp/task/book/001/book.glb
+    '002':
+      config: grasp/task/book/002/book.yml
+      model: grasp/task/book/002/book.glb
+    '003':
+      config: grasp/task/book/003/book.yml
+      model: grasp/task/book/003/book.glb
+
+  bottle:
+    '001':
+      config: grasp/task/bottle/001/bottle.yml
+      model: grasp/task/bottle/001/bottle.glb
+    '002':
+      config: grasp/task/bottle/002/bottle.yml
+      model: grasp/task/bottle/002/bottle.glb
+    '003':
+      config: grasp/task/bottle/003/bottle.yml
+      model: grasp/task/bottle/003/bottle.glb
+
+  bowl:
+    '001':
+      config: grasp/task/bowl/001/bowl.yml
+      model: grasp/task/bowl/001/bowl.glb
+    '002':
+      config: grasp/task/bowl/002/bowl.yml
+      model: grasp/task/bowl/002/bowl.glb
+    '003':
+      config: grasp/task/bowl/003/bowl.yml
+      model: grasp/task/bowl/003/bowl.glb
+
+  can:
+    '001':
+      config: grasp/task/can/001/can.yml
+      model: grasp/task/can/001/can.glb
+    '002':
+      config: grasp/task/can/002/can.yml
+      model: grasp/task/can/002/can.glb
+    '003':
+      config: grasp/task/can/003/can.yml
+      model: grasp/task/can/003/can.glb
+
+  clothe:
+    '001':
+      config: grasp/task/clothe/001/clothe.yml
+      model: grasp/task/clothe/001/clothe.glb
+    '002':
+      config: grasp/task/clothe/002/clothe.yml
+      model: grasp/task/clothe/002/clothe.glb
+    '003':
+      config: grasp/task/clothe/003/clothe.yml
+      model: grasp/task/clothe/003/clothe.glb
+
+  cup:
+    '001':
+      config: grasp/task/cup/001/cup.yml
+      model: grasp/task/cup/001/cup.glb
+    '002':
+      config: grasp/task/cup/002/cup.yml
+      model: grasp/task/cup/002/cup.glb
+    '003':
+      config: grasp/task/cup/003/cup.yml
+      model: grasp/task/cup/003/cup.glb
+
+  doll:
+    '001':
+      config: grasp/task/doll/001/doll.yml
+      model: grasp/task/doll/001/doll.glb
+    '002':
+      config: grasp/task/doll/002/doll.yml
+      model: grasp/task/doll/002/doll.glb
+    '003':
+      config: grasp/task/doll/003/doll.yml
+      model: grasp/task/doll/003/doll.glb
+
+  flat_bladed_tool:
+    '001':
+      config: grasp/task/flat_bladed_tool/001/flat_bladed_tool.yml
+      model: grasp/task/flat_bladed_tool/001/flat_bladed_tool.glb
+    '002':
+      config: grasp/task/flat_bladed_tool/002/flat_bladed_tool.yml
+      model: grasp/task/flat_bladed_tool/002/flat_bladed_tool.glb
+    '003':
+      config: grasp/task/flat_bladed_tool/003/flat_bladed_tool.yml
+      model: grasp/task/flat_bladed_tool/003/flat_bladed_tool.glb
+
+  fruit:
+    '001':
+      config: grasp/task/fruit/001/fruit.yml
+      model: grasp/task/fruit/001/fruit.glb
+    '002':
+      config: grasp/task/fruit/002/fruit.yml
+      model: grasp/task/fruit/002/fruit.glb
+    '003':
+      config: grasp/task/fruit/003/fruit.yml
+      model: grasp/task/fruit/003/fruit.glb
+
+  glove:
+    '001':
+      config: grasp/task/glove/001/glove.yml
+      model: grasp/task/glove/001/glove.glb
+    '002':
+      config: grasp/task/glove/002/glove.yml
+      model: grasp/task/glove/002/glove.glb
+    '003':
+      config: grasp/task/glove/003/glove.yml
+      model: grasp/task/glove/003/glove.glb
+
+  hammer:
+    '001':
+      config: grasp/task/hammer/001/hammer.yml
+      model: grasp/task/hammer/001/hammer.glb
+    '002':
+      config: grasp/task/hammer/002/hammer.yml
+      model: grasp/task/hammer/002/hammer.glb
+    '003':
+      config: grasp/task/hammer/003/hammer.yml
+      model: grasp/task/hammer/003/hammer.glb
+
+  hat:
+    '001':
+      config: grasp/task/hat/001/hat.yml
+      model: grasp/task/hat/001/hat.glb
+    '002':
+      config: grasp/task/hat/002/hat.yml
+      model: grasp/task/hat/002/hat.glb
+    '003':
+      config: grasp/task/hat/003/hat.yml
+      model: grasp/task/hat/003/hat.glb
+
+  headphone:
+    '001':
+      config: grasp/task/headphone/001/headphone.yml
+      model: grasp/task/headphone/001/headphone.glb
+    '002':
+      config: grasp/task/headphone/002/headphone.yml
+      model: grasp/task/headphone/002/headphone.glb
+    '003':
+      config: grasp/task/headphone/003/headphone.yml
+      model: grasp/task/headphone/003/headphone.glb
+
+  key:
+    '001':
+      config: grasp/task/key/001/key.yml
+      model: grasp/task/key/001/key.glb
+    '002':
+      config: grasp/task/key/002/key.yml
+      model: grasp/task/key/002/key.glb
+    '003':
+      config: grasp/task/key/003/key.yml
+      model: grasp/task/key/003/key.glb
+
+  kitchen_spatula:
+    '001':
+      config: grasp/task/kitchen_spatula/001/kitchen_spatula.yml
+      model: grasp/task/kitchen_spatula/001/kitchen_spatula.glb
+    '002':
+      config: grasp/task/kitchen_spatula/002/kitchen_spatula.yml
+      model: grasp/task/kitchen_spatula/002/kitchen_spatula.glb
+    '003':
+      config: grasp/task/kitchen_spatula/003/kitchen_spatula.yml
+      model: grasp/task/kitchen_spatula/003/kitchen_spatula.glb
+
+  knife:
+    '001':
+      config: grasp/task/knife/001/knife.yml
+      model: grasp/task/knife/001/knife.glb
+    '002':
+      config: grasp/task/knife/002/knife.yml
+      model: grasp/task/knife/002/knife.glb
+    '003':
+      config: grasp/task/knife/003/knife.yml
+      model: grasp/task/knife/003/knife.glb
+
+  laptop:
+    '001':
+      config: grasp/task/laptop/001/laptop.yml
+      model: grasp/task/laptop/001/laptop.glb
+    '002':
+      config: grasp/task/laptop/002/laptop.yml
+      model: grasp/task/laptop/002/laptop.glb
+    '003':
+      config: grasp/task/laptop/003/laptop.yml
+      model: grasp/task/laptop/003/laptop.glb
+
+  lego_brick:
+    '001':
+      config: grasp/task/lego_brick/001/lego_brick.yml
+      model: grasp/task/lego_brick/001/lego_brick.glb
+    '002':
+      config: grasp/task/lego_brick/002/lego_brick.yml
+      model: grasp/task/lego_brick/002/lego_brick.glb
+    '003':
+      config: grasp/task/lego_brick/003/lego_brick.yml
+      model: grasp/task/lego_brick/003/lego_brick.glb
+
+  pen:
+    '001':
+      config: grasp/task/pen/001/pen.yml
+      model: grasp/task/pen/001/pen.glb
+    '002':
+      config: grasp/task/pen/002/pen.yml
+      model: grasp/task/pen/002/pen.glb
+    '003':
+      config: grasp/task/pen/003/pen.yml
+      model: grasp/task/pen/003/pen.glb
+
+  plant:
+    '001':
+      config: grasp/task/plant/001/plant.yml
+      model: grasp/task/plant/001/plant.glb
+    '002':
+      config: grasp/task/plant/002/plant.yml
+      model: grasp/task/plant/002/plant.glb
+    '003':
+      config: grasp/task/plant/003/plant.yml
+      model: grasp/task/plant/003/plant.glb
+
+  plate:
+    '001':
+      config: grasp/task/plate/001/plate.yml
+      model: grasp/task/plate/001/plate.glb
+    '002':
+      config: grasp/task/plate/002/plate.yml
+      model: grasp/task/plate/002/plate.glb
+    '003':
+      config: grasp/task/plate/003/plate.yml
+      model: grasp/task/plate/003/plate.glb
+
+  pot:
+    '001':
+      config: grasp/task/pot/001/pot.yml
+      model: grasp/task/pot/001/pot.glb
+    '002':
+      config: grasp/task/pot/002/pot.yml
+      model: grasp/task/pot/002/pot.glb
+    '003':
+      config: grasp/task/pot/003/pot.yml
+      model: grasp/task/pot/003/pot.glb
+
+  ring:
+    '001':
+      config: grasp/task/ring/001/ring.yml
+      model: grasp/task/ring/001/ring.glb
+    '002':
+      config: grasp/task/ring/002/ring.yml
+      model: grasp/task/ring/002/ring.glb
+    '003':
+      config: grasp/task/ring/003/ring.yml
+      model: grasp/task/ring/003/ring.glb
+
+  shoe:
+    '001':
+      config: grasp/task/shoe/001/shoe.yml
+      model: grasp/task/shoe/001/shoe.glb
+    '002':
+      config: grasp/task/shoe/002/shoe.yml
+      model: grasp/task/shoe/002/shoe.glb
+    '003':
+      config: grasp/task/shoe/003/shoe.yml
+      model: grasp/task/shoe/003/shoe.glb
+
+  snack:
+    '001':
+      config: grasp/task/snack/001/snack.yml
+      model: grasp/task/snack/001/snack.glb
+    '002':
+      config: grasp/task/snack/002/snack.yml
+      model: grasp/task/snack/002/snack.glb
+    '003':
+      config: grasp/task/snack/003/snack.yml
+      model: grasp/task/snack/003/snack.glb
+
+  spoon:
+    '001':
+      config: grasp/task/spoon/001/spoon.yml
+      model: grasp/task/spoon/001/spoon.glb
+    '002':
+      config: grasp/task/spoon/002/spoon.yml
+      model: grasp/task/spoon/002/spoon.glb
+    '003':
+      config: grasp/task/spoon/003/spoon.yml
+      model: grasp/task/spoon/003/spoon.glb
+
+  sword:
+    '001':
+      config: grasp/task/sword/001/sword.yml
+      model: grasp/task/sword/001/sword.glb
+    '002':
+      config: grasp/task/sword/002/sword.yml
+      model: grasp/task/sword/002/sword.glb
+    '003':
+      config: grasp/task/sword/003/sword.yml
+      model: grasp/task/sword/003/sword.glb
+
+  teapot:
+    '001':
+      config: grasp/task/teapot/001/teapot.yml
+      model: grasp/task/teapot/001/teapot.glb
+    '002':
+      config: grasp/task/teapot/002/teapot.yml
+      model: grasp/task/teapot/002/teapot.glb
+    '003':
+      config: grasp/task/teapot/003/teapot.yml
+      model: grasp/task/teapot/003/teapot.glb
+
+  toy_car:
+    '001':
+      config: grasp/task/toy_car/001/toy_car.yml
+      model: grasp/task/toy_car/001/toy_car.glb
+    '002':
+      config: grasp/task/toy_car/002/toy_car.yml
+      model: grasp/task/toy_car/002/toy_car.glb
+    '003':
+      config: grasp/task/toy_car/003/toy_car.yml
+      model: grasp/task/toy_car/003/toy_car.glb

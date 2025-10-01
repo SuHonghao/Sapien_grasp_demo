@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="panda_hand">
+
+  <!-- Hand link -->
+  <link name="panda_hand">
+    <visual>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/hand.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/hand.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Left finger -->
+  <link name="panda_leftfinger">
+    <visual>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/finger.dae" />
+      </geometry>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/finger.stl"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Right finger -->
+  <link name="panda_rightfinger">
+    <visual>
+      <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/finger.dae"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/finger.stl" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="panda_finger_joint1" type="prismatic">
+    <parent link="panda_hand"/>
+    <child link="panda_leftfinger"/>
+    <origin rpy="0 0 0" xyz="0 0 0.08"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="100" lower="0.0" upper="0.1" velocity="0.2"/>
+    <initial_position value="0.2"/>
+  </joint>
+
+  <joint name="panda_finger_joint2" type="prismatic">
+    <parent link="panda_hand"/>
+    <child link="panda_rightfinger"/>
+    <origin rpy="0 0 0" xyz="0 0 0.08"/>
+    <axis xyz="0 -1 0"/>
+    <limit effort="100" lower="0.0" upper="0.1" velocity="0.2"/>
+    <mimic joint="panda_finger_joint1"/>
+    <initial_position value="0.2"/>
+  </joint>
+
+
+  <!-- TCP (Tool Center Point) -->
+  <link name="tcp">
+    <inertial>
+      <mass value="0.0001"/>
+      <inertia ixx="1e-6" iyy="1e-6" izz="1e-6" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </link>
+
+  <!-- 固定 TCP 在手指中点 -->
+  <joint name="tcp_fixed" type="fixed">
+    <parent link="panda_hand"/>
+    <child link="tcp"/>
+    <!-- 这里的 xyz 是从 hand 底座到夹爪中点的偏移量 -->
+    <origin xyz="0 0 0.0584" rpy="0 0 0"/>
+  </joint>
+
+
+</robot>
