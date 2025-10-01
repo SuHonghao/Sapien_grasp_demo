@@ -5,12 +5,12 @@
   <link name="panda_hand">
     <visual>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/hand.dae" />
+        <mesh filename="grasp/panda/franka_description/meshes/visual/hand.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/hand.stl" />
+        <mesh filename="grasp/panda/franka_description/meshes/collision/hand.stl" />
       </geometry>
     </collision>
   </link>
@@ -19,12 +19,12 @@
   <link name="panda_leftfinger">
     <visual>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/finger.dae" />
+        <mesh filename="grasp/panda/franka_description/meshes/visual/finger.dae" />
       </geometry>
     </visual>
     <collision>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/finger.stl"/>
+        <mesh filename="grasp/panda/franka_description/meshes/collision/finger.stl"/>
       </geometry>
     </collision>
   </link>
@@ -34,13 +34,13 @@
     <visual>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/visual/finger.dae"/>
+        <mesh filename="grasp/panda/franka_description/meshes/visual/finger.dae"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="/home/honghao/SAPIEN/1grasp/panda/franka_description/meshes/collision/finger.stl" />
+        <mesh filename="grasp/panda/franka_description/meshes/collision/finger.stl" />
       </geometry>
     </collision>
   </link>

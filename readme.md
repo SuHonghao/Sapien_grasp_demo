@@ -107,6 +107,10 @@ python test_main.py --cfg grasp/task/bag/001/graspgen_proposals_topk.yml \
 安装依赖：
 
 ```bash
+conda create -n hongaho_sapien python=3.10 -y
+
+pip install sapien
+
 pip install -r requirements.txt
 ```
 
@@ -119,7 +123,7 @@ pip install -r requirements.txt
 ### 第一次运行（原始 proposals）
 
 ```bash
-python grasp/test_main.py --task bag --id 001 --viewer
+python grasp/test_main.py --task bag --id 001 
 ```
 
 输出示例：
@@ -144,7 +148,7 @@ grasp/task/bag/001/batch_res_bag.001.yml
 ### 第二次运行（修正 proposals）
 
 ```bash
-python grasp/test_main.py --cfg grasp/task/bag/001/batch_res_bag.001.yml --glb grasp/task/bag/001/bag_scaled.glb --viewer
+python grasp/test_main.py --cfg grasp/task/bag/001/batch_res_bag.001.yml --glb grasp/task/bag/001/bag_scaled.glb 
 ```
 
 输出示例：
