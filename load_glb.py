@@ -13,7 +13,7 @@ def load_my_object(
     pose: "sapien.Pose" = None,
     name: str = "my_glb_model",
     add_collision: bool = True,
-    build_dynamic: bool = False,   # True → 动态刚体；False → 静态刚体
+    build_dynamic: bool = True,   # True → 动态刚体；False → 静态刚体
     use_convex: bool = False,      # 动态刚体推荐用凸包
     friction: float = 1,         # 摩擦系数 (静/动一致)，np.inf → 1e6
     restitution: float = 0       # 弹性系数（反弹系数）
